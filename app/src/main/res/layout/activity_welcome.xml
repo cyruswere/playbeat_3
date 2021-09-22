@@ -8,11 +8,11 @@
     tools:context=".ui.WelcomeActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="150dp"
         android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="150dp"
             android:background="@drawable/pic_three"/>
 
     </LinearLayout>
