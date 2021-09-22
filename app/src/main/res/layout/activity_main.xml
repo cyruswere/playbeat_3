@@ -70,9 +70,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:fontFamily="@font/baloo"
-            android:text="BigBeats"
+            android:text="Play Beats"
             android:textColor="#ffff"
-            android:textSize="80sp" />
+            android:textSize="40sp" />
     </RelativeLayout>
 
     <LinearLayout
@@ -90,7 +90,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="50dp"
                 android:fontFamily="@font/amaranth_italic"
-                android:text="Odero Oluoch"
+                android:text="cyrus seth"
                 android:textColor="#838282"
                 android:textSize="24sp" />
         </RelativeLayout>
