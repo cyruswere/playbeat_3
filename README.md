@@ -20,14 +20,14 @@ Cyrus Were
 Run this command to clone the repo in your local machine.
 
 ```
-git clone https://github.com/cyruswere/PlayBeat
+git clone https://github.com/cyruswere/PlayBeat_2
 ```
 Confirm all dependencies are synced as you let gradle do it's thing.
 
 
 ### Prerequisites
 
-Ensure you have all the nesesary Java SDK and Android Studio SDK tools in place.
+Ensure you have all the nescsary Java SDK and Android Studio SDK tools in place.
 
 
 ## Built With
