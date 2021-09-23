@@ -27,7 +27,7 @@ Confirm all dependencies are synced as you let gradle do it's thing.
 
 ### Prerequisites
 
-Ensure you have all the nescsary Java SDK and Android Studio SDK tools in place.
+Ensure you have all the necessary Java SDK and Android Studio SDK tools in place.
 
 
 ## Built With
