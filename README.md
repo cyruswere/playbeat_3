@@ -2,6 +2,10 @@
 
 An Android App that plays music using the MixCloud API.
 
+# Author
+
+Cyrus Were
+
 [comment]: <> (![Splash Screen]&#40;images/splash.png&#41;)
 
 [comment]: <> (![Welcome Screen]&#40;images/welcome.png&#41;)
