@@ -134,4 +134,5 @@ public class SearchActivity extends AppCompatActivity implements  View.OnClickLi
         mEditor.putString(Constants.PREFERENCES_RESULT_KEY, searchKeyWord).apply();
     }
 
+
 }

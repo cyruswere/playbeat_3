@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class LogInActivity extends AppCompatActivity implements View.OnClickListener {
+public class LogInActivity extends AppCompatActivity {
 
     FirebaseAuth mAuth;
 
@@ -29,8 +29,7 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
     @BindView(R.id.goToSeeMusicFromLogIn) Button seeMusic;
     @BindView(R.id.nameInputLoginView) EditText mUserName;
     @BindView(R.id.passwordInputLoginView) EditText mUserPassword;
-    @BindView(R.id.registerInstead)
-    TextView registerHereText;
+    @BindView(R.id.registerInstead) TextView registerHereText;
 
 
     @Override
@@ -80,10 +79,6 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
 
     }
 
-    @Override
-    public void onClick(View view) {
-
-    }
 
 
 //    @Override

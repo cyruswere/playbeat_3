@@ -28,11 +28,9 @@ public class SavedResultListActivity extends AppCompatActivity {
     private DatabaseReference mResultReference;
     private FirebaseRecyclerAdapter<Result, FirebaseResultsViewHolder> mFirebaseAdapter;
 
-    @BindView(R.id.postRecyclerView)
-    RecyclerView mRecyclerView;
+    @BindView(R.id.postRecyclerView) RecyclerView mRecyclerView;
     //@BindView(R.id.errorTextView) TextView mErrorTextView;
-    @BindView(R.id.progressBar)
-    ProgressBar mProgressBar;
+    @BindView(R.id.progressBar) ProgressBar mProgressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +44,7 @@ public class SavedResultListActivity extends AppCompatActivity {
         showResults();
     }
 
-    private void setUpFirebaseAdapter() {
+    private void setUpFirebaseAdapter(){
         FirebaseRecyclerOptions<Result> options =
                 new FirebaseRecyclerOptions.Builder<Result>()
                         .setQuery(mResultReference, Result.class)
@@ -79,7 +77,7 @@ public class SavedResultListActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        if (mFirebaseAdapter != null) {
+        if(mFirebaseAdapter!= null) {
             mFirebaseAdapter.stopListening();
         }
     }
@@ -91,4 +89,5 @@ public class SavedResultListActivity extends AppCompatActivity {
     private void hideProgressBar() {
         mProgressBar.setVisibility(View.GONE);
     }
+
 }
