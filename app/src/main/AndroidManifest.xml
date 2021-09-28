@@ -10,33 +10,58 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PlayBeat2">
+
+        <activity
+            android:name=".ui.SavedResultListActivity"
+            android:exported="true" />
         <activity
             android:name=".ui.SearchActivity"
-            android:exported="true" />
+            android:theme="@style/NoActionBarTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cyruswere.playbeat_2.ui.WelcomeActivity" />
+        </activity>
         <activity
             android:name=".ui.ResultsActivity"
             android:exported="true" />
         <activity
             android:name=".ui.ResultDetailActivity"
-            android:exported="true" />
+            android:exported="true" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.cyruswere.playbeat_2.ui.WelcomeActivity" />
+        </activity>
+
         <activity
             android:name=".ui.LogInActivity"
-            android:exported="true" />
+            android:theme="@style/NoActionBarTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.cyruswere.playbeat_2.ui.WelcomeActivity" />
+        </activity>
         <activity
             android:name=".ui.SignInActivity"
-            android:exported="true" />
+            android:theme="@style/NoActionBarTheme">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.cyruswere.playbeat_2.ui.WelcomeActivity" />
+        </activity>
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ui.WelcomeActivity"
-            android:exported="true" />
+            android:theme="@style/NoActionBarTheme"/>
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

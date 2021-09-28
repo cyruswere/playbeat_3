@@ -25,14 +25,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class TrackListAdapter extends RecyclerView.Adapter<TrackListAdapter.TrackViewHolder> {
+
     private List<Result> resultList;
     private Context mContext;
 
-    public TrackListAdapter(ResultsActivity resultsActivity, List<Result> resultList) {
-    }
 
-
-    public void TrackListAdapter(Context context,List<Result> mtrackList) {
+    public TrackListAdapter(Context context,List<Result> mtrackList) {
         mContext = context;
         this.resultList = mtrackList;
     }
@@ -43,8 +41,6 @@ public class TrackListAdapter extends RecyclerView.Adapter<TrackListAdapter.Trac
                 .inflate(R.layout.list_item,parent,false);
         return new TrackViewHolder(view);
     }
-
-   
 
     @Override
     public void onBindViewHolder(TrackListAdapter.TrackViewHolder holder, int position) {
@@ -65,10 +61,8 @@ public class TrackListAdapter extends RecyclerView.Adapter<TrackListAdapter.Trac
     public class TrackViewHolder extends  RecyclerView.ViewHolder implements View.OnClickListener {
         //TextView tvBody,tvTitle;
 
-        @BindView(R.id.albumImage)
-        ImageView mAlbumImageView;
-        @BindView(R.id.albumName)
-        TextView mAlbumNameTextView;
+        @BindView(R.id.albumImage) ImageView mAlbumImageView;
+        @BindView(R.id.albumName) TextView mAlbumNameTextView;
         @BindView(R.id.albumArtsistName) TextView mAlbumArtistTextView;
         @BindView(R.id.numberOfSongs) TextView mAlbumTrackCountTextView;
 

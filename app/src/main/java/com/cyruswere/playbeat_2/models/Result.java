@@ -7,6 +7,7 @@ import org.parceler.Parcel;
 
 @Parcel
 public class Result {
+
     @SerializedName("wrapperType")
     @Expose
     private String wrapperType;
@@ -515,4 +516,5 @@ public class Result {
     public void setHasITunesExtras(Boolean hasITunesExtras) {
         this.hasITunesExtras = hasITunesExtras;
     }
+
 }

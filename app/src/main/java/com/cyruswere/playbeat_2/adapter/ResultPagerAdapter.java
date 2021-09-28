@@ -17,7 +17,7 @@ public class ResultPagerAdapter extends FragmentPagerAdapter {
         mResults = results;
     }
 
-    @NonNull
+
     @Override
     public Fragment getItem(int position) {
         return ResultDetailFragment.newInstance(mResults.get(position));
@@ -28,6 +28,10 @@ public class ResultPagerAdapter extends FragmentPagerAdapter {
         return mResults.size();
     }
 
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return mResults.get(position).getArtistName();
+    }
 //    @Override
 //    public Fragment getItem(int position) {
 //        return ResultDetailFragment.newInstance(mResults.get(position));
