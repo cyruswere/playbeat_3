@@ -8,7 +8,7 @@
     tools:context=".ui.WelcomeActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="150dp"h
         android:orientation="vertical">
         <ImageView
             android:layout_width="match_parent"
