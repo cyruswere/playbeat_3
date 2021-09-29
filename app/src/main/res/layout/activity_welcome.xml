@@ -49,7 +49,7 @@
         android:textColor="#fff"
         android:background="@drawable/button"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"/>l
+        android:layout_marginTop="15dp"/>
 
 
 
