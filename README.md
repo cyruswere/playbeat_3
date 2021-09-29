@@ -6,13 +6,6 @@ An Android App that plays music using the MixCloud API.
 
 Cyrus Were
 
-[comment]: <> (![Splash Screen]&#40;images/splash.png&#41;)
-
-[comment]: <> (![Welcome Screen]&#40;images/welcome.png&#41;)
-
-[comment]: <> (![Log In Screen]&#40;images/signup.png&#41;)
-
-[comment]: <> (![RegisterScreen]&#40;images/signup.png&#41;)
 
 
 ## Getting Started
